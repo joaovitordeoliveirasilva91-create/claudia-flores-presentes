@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- Site content (products, gifts, gallery, contacts, WhatsApp number) lives in `src/lib/site.ts`; pages read from it so business details change in one place.
+- Product photos are real shop photos stored in `public/images/` and referenced as `/images/...` so they ship with the repo and keep working on any host.
+- Shared shell (header, footer, floating WhatsApp button) is rendered in `src/routes/__root.tsx`; each section (/produtos, /galeria, /presentes, /sobre, /contato) is its own route with its own head().

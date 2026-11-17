@@ -27,3 +27,14 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
+
+## Claudia Flores e Presentes
+
+- Fotos reais da loja ficam em `public/images/` (salvas do Instagram público @claudia_floresepresentes) e são usadas pelo caminho `/images/<arquivo>.jpg`.
+- Textos, produtos, galeria e contatos ficam em `src/lib/site.ts`.
+
+### Publicar na Vercel
+
+1. Importe o repositório do GitHub na Vercel (Add New → Project).
+2. Framework preset: **Other**. Build command: `bun run build` (ou `npm run build`). Deixe o output em branco.
+3. Se o build gerar saída para Cloudflare em vez de Vercel, adicione a variável de ambiente `NITRO_PRESET=vercel` e publique de novo.
