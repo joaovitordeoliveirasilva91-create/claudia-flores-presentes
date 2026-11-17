@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
+import { Catalog } from "@/components/site/Catalog";
 import { CtaBanner } from "@/components/site/CtaBanner";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
@@ -51,6 +52,18 @@ function ProductsPage() {
           </a>
         </Button>
       </PageHero>
+
+      <section id="catalogo" className="bg-blush-fade py-24 md:py-32">
+        <div className="mx-auto max-w-6xl px-6">
+          <SectionHeading
+            eyebrow="Catálogo"
+            title={<>Escolha o seu <em className="text-primary">presente</em></>}
+          />
+          <div className="mt-14">
+            <Catalog />
+          </div>
+        </div>
+      </section>
 
       <section className="mx-auto max-w-6xl space-y-24 px-6 py-24 md:space-y-32 md:py-32">
         {PRODUCTS.map((p, i) => (
