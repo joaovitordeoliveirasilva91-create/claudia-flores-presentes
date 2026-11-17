@@ -112,7 +112,7 @@ export const GIFTS: GiftOccasion[] = [
   {
     title: "Surpresas",
     description:
-      "Balões personalizados, cartões escritos à mão e entregas que fazem o coração disparar.",
+      "Balões personalizados, cartões escritos à mão e mimos que fazem o coração disparar.",
     image: "/images/balao-personalizado.jpg",
     alt: "Balão transparente personalizado com nome em letras azuis",
     message: "Olá! Quero preparar uma surpresa especial. ✨",

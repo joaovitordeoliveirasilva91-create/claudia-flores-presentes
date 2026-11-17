@@ -11,7 +11,7 @@ type Props = {
 
 export function CtaBanner({
   title = "Vamos criar algo inesquecível?",
-  text = "Conte para nós a ocasião, o estilo e o orçamento. Montamos o presente perfeito e entregamos com todo o carinho.",
+  text = "Conte para nós a ocasião, o estilo e o orçamento. Montamos o presente perfeito, preparado com todo o carinho.",
   message,
 }: Props) {
   return (

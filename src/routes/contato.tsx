@@ -73,7 +73,7 @@ function ContactPage() {
                   <Icon className="size-6" />
                 </span>
                 <p className="eyebrow mt-6">{label}</p>
-                <p className="mt-2 break-words font-display text-2xl sm:text-3xl md:text-[1.6rem] lg:text-3xl">{value}</p>
+                <p className="mt-2 break-words font-display text-2xl sm:text-3xl md:text-xl lg:text-2xl">{value}</p>
                 <span className="mt-auto pt-6 text-xs uppercase tracking-[0.2em] text-primary">{cta} →</span>
               </a>
             </Reveal>
@@ -126,7 +126,7 @@ function ContactPage() {
                 onChange={(e) => setDetails(e.target.value)}
                 maxLength={500}
                 rows={4}
-                placeholder="Ex.: buquê de girassóis com chocolates, para entregar sexta-feira…"
+                placeholder="Ex.: buquê de girassóis com chocolates, para sexta-feira…"
                 className="mt-2 w-full resize-none rounded-xl border border-gold/30 bg-rosewood-foreground/5 px-4 py-3 text-rosewood-foreground placeholder:text-rosewood-foreground/40 focus:border-gold focus:outline-none"
               />
             </label>

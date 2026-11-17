@@ -70,7 +70,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-6xl px-6">
         <Flourish className="mx-auto h-4 w-40 text-gold/60" />
       </div>
-      <p className="px-6 py-8 text-center text-xs tracking-[0.15em] text-rosewood-foreground/50">
+      <p className="px-6 pt-8 pb-24 text-center text-xs md:pb-8 tracking-[0.15em] text-rosewood-foreground/50">
         © {new Date().getFullYear()} {SITE.name}. Todos os direitos reservados.
       </p>
     </footer>

@@ -220,7 +220,7 @@ function Craft() {
           />
           <img
             src="/images/arranjos-florais.jpg"
-            alt="Buquê branco e rosa pronto para entrega"
+            alt="Buquê branco e rosa finalizado"
             loading="lazy"
             className="absolute -bottom-10 -right-6 w-40 rounded-[1.5rem] border-4 border-ivory object-cover shadow-petal sm:-right-14 sm:w-48"
           />

@@ -42,8 +42,8 @@ function ProductsPage() {
           </>
         }
         description="Conheça nossas criações. Todas são montadas sob encomenda e podem ser personalizadas com cartão, chocolates, pelúcias e muito mais."
-        image="/images/arranjos-florais.jpg"
-        imageAlt="Buquê branco e rosa da Claudia Flores"
+        image="/images/atelie-folhagens.jpg"
+        imageAlt="Mãos preparando folhagens frescas no ateliê da Claudia Flores"
       >
         <Button asChild variant="whatsapp" size="xl">
           <a href={whatsappLink("Olá! Gostaria de ver as opções de produtos e valores. 🌷")} target="_blank" rel="noreferrer">
